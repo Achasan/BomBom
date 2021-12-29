@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+/* 공통속성 */
+body {
+	font-family: 'Noto Sans KR', 'CJONLYONENEW', '맑은 고딕', '돋움', Dotum, sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    word-break: break-all;
+}	
+
+/* 헤더 시작 */
+.header{
+	width: 100%;
+}
+
+.header_content{
+	
+	border-bottom: 1px solid #eee;
+}
+
+
+/* 모든 본문 내용의  공통 마진 */
+.content{
+	margin-left: 300px;
+	margin-right: 300px;
+} 
+
+.logo {
+	padding-top: 30px;
+	padding-bottom: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+}		
+
+.logo img {
+	width: auto;
+	height: 55px;
+}
+
+.logo span {
+    font-weight: 500;
+    font-size: 16px;
+    color: #222;
+    letter-spacing: 0.313em;
+    line-height: 1.500em;
+    margin-bottom: 5px;
+}
+
+.logo>* {
+	display: inline-block;
+}
+
+.nav {
+	height: auto;
+	border-bottom: 2px solid #fb4357;
+}
+
+.nav ul{
+	padding-left: 10px;
+}
+
+.nav li {
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+	width: 150px;
+}
+
+.nav span {
+	font-weight: 700;
+    font-size: 16px;
+    color: #222;
+}
+
+.nav span:hover {
+	cursor: pointer;
+	color: #fb4357;
+}
+
+.nav span#on {
+	color: #fb4357;
+}
+
+/*
+.blank {
+	width: 700px;
+}
+*/
+
+.login {
+	float: right;
+}
+
+.login::after {
+	clear: both;
+}
+
+.login li {
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+	width: 100px;
+	font-size: 16px;
+}
+
+.login img {
+	
+	width: auto;
+	height: 30px;
+}
+
+
+/* 헤더 끝  */
