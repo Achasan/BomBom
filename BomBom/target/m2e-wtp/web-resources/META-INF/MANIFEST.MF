@@ -1,5 +1,4 @@
 Manifest-Version: 1.0
-Built-By: HOIT
-Build-Jdk: 11.0.12
+Built-By: User
+Build-Jdk: 1.8.0_301
 Created-By: Maven Integration for Eclipse
-
