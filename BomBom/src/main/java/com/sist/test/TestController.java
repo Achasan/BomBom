@@ -1,10 +1,20 @@
 package com.sist.test;
 
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.bombom.model.PremiereDAO;
 
 @Controller
 public class TestController {
+	
+	@Autowired
+	// 시사회 게시판
+	private PremiereDAO preDAO;
 
 	@RequestMapping("user_talk.do")
 	public String user_talk() {
@@ -21,9 +31,10 @@ public class TestController {
 		return "/user/user_food";
 	}
 	
+	// 시사회 게시판
 	@RequestMapping("user_premiere.do")
-	public String talk() {
+	public String premiere(HttpServletRequest request, Model model) {
 		return "/user/user_premiere";
 	}
-	
+		
 }
