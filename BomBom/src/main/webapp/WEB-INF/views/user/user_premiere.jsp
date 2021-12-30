@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+    
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,30 +26,25 @@
 		);
 		
 	</script>
-
+	
 </head>
 <body>
 	<jsp:include page="../include/header.jsp" flush="false"/>
+	<%-- 가로 배너 들어갈 위치 --%>
 	
-	<div class="contents">
-	
-		<%-- 여기에 작업 해야함 (좌우 여백 설정되어있음) --%>
-		
-		<%-- 더미컨텐츠 (필요시 .article, .content 사용) --%>
-		<div class="article">
-			<div class="content">
-				<h1>시사회 본문내용 들어갈 자리</h1>
-				<p>어쩌고저쩌고</p>
+	<div class="content">
+		<%-- 여기에 작업 해야함 (좌우 여백 설정되어있음) --%>	
+		<c:if test="${!empty list }">	<!-- 게시글 목록 존재하는 경우 -->
+		<c:forEach items="${list }" var="dto">
+		<div class="list_wrap">	
+			<div class="premiere_gallery">
+				<ul>
+					<li class="list_unit"> </li>
+				</ul>
 			</div>
 		</div>
-		
-		
-		<div class="article">
-			<div class="content">
-				<h1>시사회 본문내용 들어갈 자리</h1>
-				<p>어쩌고저쩌고</p>
-			</div>
-		</div>
+		</c:forEach>	
+		</c:if>
 
 	</div>
 	

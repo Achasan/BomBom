@@ -20,16 +20,41 @@
 	<div class="contents">
 	
 		<%-- 메인화면 배너 자리 : iframe 사용 예정 --%>
-		<div class="banner"> 
-		
-			<img src="resources/image/poster_matrix.jpg">
+		<div id="slideShow"> 
+			<ul class="img">
+				<li><img src="resources/image/Ts_1920420.jpg"></li> 
+					
+			</ul>
+			
+			<p class="controller"> 
+			<!-- &lang: 왼쪽 방향 화살표 &rang: 오른쪽 방향 화살표 --> 
+			<span class="prev">&lang;</span> 
+			<span class="next">&rang;</span> 
+			</p>
+
+	
 		</div>
 		
+		
 		<%-- 본문 컨텐츠 자리 --%>
-		<div class="article">
+		<div class="popular">
 			<div class="content">
-				<h1>본문내용들어갈자리</h1>
-				<p>어쩌고저쩌고</p>
+				<h1>인기 게시글</h1>
+				<table border="1" cellspacing="0" width="900" id="pop">
+					<tr>
+						
+						<td> <span class="rank_1">1</span> </td>
+					</tr>
+					<tr>
+						<td> <span class="rank_2">2</span> </td>
+					</tr>
+					<tr>
+						<td> <span class="rank_3">3</span> </td>
+					</tr>
+				
+				</table>
+				
+				
 			</div>
 		</div>
 		
