@@ -1,4 +1,4 @@
-package com.sist.test;
+package com.bombom.controller;
 
 import java.text.DateFormat;
 import java.util.Date;

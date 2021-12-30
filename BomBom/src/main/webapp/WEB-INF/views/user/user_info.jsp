@@ -8,7 +8,6 @@
 
 	<%-- header, home, footer.css --%>
 	<link rel="stylesheet" type="text/css" href="resources/css/header.css?after">
-	<link rel="stylesheet" type="text/css" href="resources/css/home.css?after">
 	<link rel="stylesheet" type="text/css" href="resources/css/info.css?after">
 	<link rel="stylesheet" type="text/css" href="resources/css/footer.css?after">
 	

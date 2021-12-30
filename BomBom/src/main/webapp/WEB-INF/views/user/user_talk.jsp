@@ -28,17 +28,21 @@
 <body>
 	<jsp:include page="../include/header.jsp" flush="false"/>
 	
-	<div class="content">
 	
-		<%-- 여기에 작업 해야함 (좌우 여백 설정되어있음) --%>
-		
-        <div class="jumbotron">
+	<div class="jumbotron">
             <div class="textBlock1">
                 <span class="main_title">영화수다</span>
                 <br>
                 <span class="sub_title">봄봄인들의 수다공간</span> 
             </div>
         </div>
+	
+	
+	<div class="content">
+	
+		<%-- 여기에 작업 해야함 (좌우 여백 설정되어있음) --%>
+		
+        
 
         <div class="boardArea">
             <div class="board">
@@ -130,7 +134,7 @@
                         <td>
                             <a href="#">heasasdasdqweo</a>
                         </td>
-                        <td>2021.12.30</td>
+                        <td>2021.12.30</td>	
                         <td>5</td>
                     </tr>
 
