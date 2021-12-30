@@ -8,7 +8,9 @@
 	
 }
 
-
+.article {
+	margin-top: 50px;
+  
 .img{ 
 	list-style-type : none;
 	position: absolute; 
@@ -18,11 +20,10 @@
 	transition: left 2000s;
 	
 	}
-	
-
 
 .popular {
 	margin-top: 100px;
+
 	margin-bottom: 100px;
 }
 
