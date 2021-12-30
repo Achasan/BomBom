@@ -1,15 +1,7 @@
 @charset "UTF-8";
 
 /* 본문 시작 */
-		
-#slideShow {
-	height: 500px;
-	overflow: hidden;
-	
-}
 
-.article {
-	margin-top: 50px;
   
 .img{ 
 	list-style-type : none;
@@ -18,7 +10,6 @@
 	top: 0; 
 	/* width: 2500px;  슬라이드할 사진과 마진 총 넓이 */ 
 	transition: left 2000s;
-	
 	}
 
 .popular {
@@ -43,8 +34,5 @@
 .rank_3{
 	background-color: #ec5e5e;
 }
-
-
-
 
 /* 본문 끝  */
