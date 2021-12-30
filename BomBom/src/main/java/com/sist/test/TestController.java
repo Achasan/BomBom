@@ -12,10 +12,6 @@ import com.bombom.model.PremiereDAO;
 @Controller
 public class TestController {
 	
-	@Autowired
-	// 시사회 게시판
-	private PremiereDAO preDAO;
-
 	@RequestMapping("user_talk.do")
 	public String user_talk() {
 		return "/user/user_talk";
