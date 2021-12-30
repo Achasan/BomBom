@@ -19,7 +19,8 @@
 	
 	<div class="contents">
 	
-		<%-- 메인화면 배너 자리 : iframe 사용 예정 --%>
+		<%-- 메인화면 배너 자리 : iframe 사용 예정 
+		
 		<div id="slideShow"> 
 			<ul class="img">
 				<li><img src="resources/image/Ts_1920420.jpg"></li> 
@@ -34,7 +35,7 @@
 
 	
 		</div>
-		
+		--%>
 		
 		<%-- 본문 컨텐츠 자리 --%>
 		<div class="popular">
