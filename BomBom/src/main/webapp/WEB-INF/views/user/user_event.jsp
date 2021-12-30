@@ -18,39 +18,22 @@
 		
 		//문서 로딩 후 선택메뉴 css 변경
 		$(document).ready(function(){
-			$('.menu1').attr('id', 'on');
+			$('.menu5').attr('id', 'on');
 			}
 		);
 		
 	</script>
-	
-	<style type="text/css">
-		.menu_banner {
-			height: 250px;
-			overflow: hidden;
-		}
-		
-		.menu_banner img {
-			width: 1920px;
-			height: auto;
-			margin-top: -100px; 
-		}
-	</style>
-	
 
 </head>
 <body>
 	<jsp:include page="../include/header.jsp" flush="false"/>
 	
-	
-		<div class="content">
-			
-			<div class="article">	
-				<h1>영화수다</h1>
-			</div>		
-			
+	<div class="content">
+		<div class="article">	
+			<h1>이벤트</h1>
+			<p>이벤트 본문</p>
 		</div>
-
+	</div>
 	
 	<jsp:include page="../include/footer.jsp" flush="false"/>
 </body>

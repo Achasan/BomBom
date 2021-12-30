@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class TestController {
+public class NavController {
 
 	@RequestMapping("user_talk.do")
 	public String user_talk() {
@@ -22,8 +22,22 @@ public class TestController {
 	}
 	
 	@RequestMapping("user_premiere.do")
-	public String talk() {
+	public String user_premiere() {
 		return "/user/user_premiere";
 	}
 	
+	@RequestMapping("user_login.do")
+	public String user_login() {
+		return "/user/user_login";
+	}
+	
+	@RequestMapping("user_join.do")
+	public String user_join() {
+		return "/user/user_join";
+	}
+	
+	@RequestMapping("user_event.do")
+	public String user_event() {
+		return "/user/user_event";
+	}
 }
