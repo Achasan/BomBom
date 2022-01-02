@@ -27,25 +27,36 @@
 <body>
 	<jsp:include page="../include/header.jsp" flush="false"/>
 	
-	<div class="contents">
+	<div class="content">
 	
-		<%-- 여기에 작업 해야함 (좌우 여백 설정되어있음) --%>
 		
-		<%-- 더미컨텐츠 (필요시 .article, .content 사용) --%>
 		<div class="article">
-			<div class="content">
-				<h1>극장맛집 본문내용 들어갈 자리</h1>
-				<p>어쩌고저쩌고</p>
-			</div>
+			<h1>극장맛집 본문내용 들어갈 자리</h1>
+			<p>어쩌고저쩌고</p>
 		</div>
 		
 		
 		<div class="article">
-			<div class="content">
-				<h1>극장맛집 본문내용 들어갈 자리</h1>
-				<p>어쩌고저쩌고</p>
-			</div>
+			<h1>극장맛집 본문내용 들어갈 자리</h1>
+			<p>어쩌고저쩌고</p>
 		</div>
+		
+		<div class="article">
+			<h1>극장맛집 본문내용 들어갈 자리</h1>
+			<p>어쩌고저쩌고</p>
+		</div>
+		
+		<div class="article">
+			<h1>극장맛집 본문내용 들어갈 자리</h1>
+			<p>어쩌고저쩌고</p>
+		</div>
+		
+		<div class="article">
+			<h1>극장맛집 본문내용 들어갈 자리</h1>
+			<p>어쩌고저쩌고</p>
+		</div>
+		
+		
 
 	</div>
 	

@@ -14,14 +14,9 @@
 
 .popular {
 	margin-top: 100px;
-
 	margin-bottom: 100px;
 }
 
-.popular.content {
-	border-bottom: 1px solid #eee;
-	
-}
 
 .rank_1{
 	background-color: #ec5e5e;

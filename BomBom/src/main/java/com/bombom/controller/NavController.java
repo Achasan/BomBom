@@ -26,6 +26,11 @@ public class NavController {
 		return "/user/user_premiere";
 	}
 	
+	@RequestMapping("user_event.do")
+	public String user_event() {
+		return "/user/user_event";
+	}
+	
 	@RequestMapping("user_login.do")
 	public String user_login() {
 		return "/user/user_login";
@@ -36,8 +41,12 @@ public class NavController {
 		return "/user/user_join";
 	}
 	
-	@RequestMapping("user_event.do")
-	public String user_event() {
-		return "/user/user_event";
+	@RequestMapping("user_join_ok.do")
+	public String user_join_ok() {
+		return "/home";
 	}
+	
+
+	
+	
 }

@@ -17,7 +17,7 @@
 	
 	<jsp:include page="./include/header.jsp" flush="false"/>
 	
-	<div class="contents">
+	<div class="content">
 	
 		<%-- 메인화면 배너 자리 : iframe 사용 예정 
 		
@@ -39,39 +39,24 @@
 		
 		<%-- 본문 컨텐츠 자리 --%>
 		<div class="popular">
-			<div class="content">
-				<h1>인기 게시글</h1>
-				<table border="1" cellspacing="0" width="900" id="pop">
-					<tr>
-						
-						<td> <span class="rank_1">1</span> </td>
-					</tr>
-					<tr>
-						<td> <span class="rank_2">2</span> </td>
-					</tr>
-					<tr>
-						<td> <span class="rank_3">3</span> </td>
-					</tr>
+			
+			<h1>인기 게시글</h1>
+			<table border="1" cellspacing="0" width="900" id="pop">
+				<tr>
+					
+					<td> <span class="rank_1">1</span> </td>
+				</tr>
+				<tr>
+					<td> <span class="rank_2">2</span> </td>
+				</tr>
+				<tr>
+					<td> <span class="rank_3">3</span> </td>
+				</tr>
+			
+			</table>
 				
-				</table>
-				
-				
-			</div>
 		</div>
-		
-		<div class="article">
-			<div class="content">
-				<h1>본문내용들어갈자리</h1>
-				<p>어쩌고저쩌고</p>
-			</div>
-		</div>
-		
-		<div class="article">
-			<div class="content">
-				<h1>본문내용들어갈자리</h1>
-				<p>어쩌고저쩌고</p>
-			</div>
-		</div>
+
 		
 	</div>
 	

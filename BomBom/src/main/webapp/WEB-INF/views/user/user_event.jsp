@@ -35,6 +35,28 @@
 		</div>
 	</div>
 	
+	<div class="content">
+		<div class="article">	
+			<h1>이벤트</h1>
+			<p>이벤트 본문</p>
+		</div>
+	</div>
+	
+	<div class="content">
+		<div class="article">	
+			<h1>이벤트</h1>
+			<p>이벤트 본문</p>
+		</div>
+	</div>
+	
+	<div class="content">
+		<div class="article">	
+			<h1>이벤트</h1>
+			<p>이벤트 본문</p>
+		</div>
+	</div>
+	
+	
 	<jsp:include page="../include/footer.jsp" flush="false"/>
 </body>
 </html>

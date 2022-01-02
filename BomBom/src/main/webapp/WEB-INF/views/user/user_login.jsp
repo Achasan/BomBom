@@ -22,11 +22,13 @@
 	<div class="content">
 		<div class="article">	
 			<div class="login_box" align="center">
-				<h3>로그인</h3>
+				<h1>로그인</h1>
+				<br>
 				<input name="id" placeholder="아이디를 입력해주세요"><br>
-				<input type="password" name="pwd" placeholder="비밀번호를 입력해주세요"><br>
+				<input type="password" name="pwd" placeholder="비밀번호를 입력해주세요"><br><br>
 				<button class="btn_login">로그인</button><br>
-				<button class="btn_join">회원가입</button>
+				<button class="btn_join">회원가입</button><br>
+				
 			</div>
 		</div>
 	</div>
