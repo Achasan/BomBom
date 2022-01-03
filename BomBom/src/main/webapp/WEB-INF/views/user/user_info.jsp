@@ -29,12 +29,21 @@
 <body>
 	<jsp:include page="../include/header.jsp" flush="false"/>
 	
-	<div class="info_banner">
+	<div class="jumbotron">
+	    <div class="textBlock1">
+	        <span class="main_title">영화 정보</span>
+	        <br>
+	        <span class="sub_title">상영중인 영화의 정보를 한눈에!</span> 
+	    </div>
+    </div>
+	
+	<!-- <div class="info_banner">
 		<div class="banner_text">
 			<h1>영화 정보</h1>
 			<h4>상영중인 영화의 정보를 한눈에!</h4>
 		</div>
-	</div>
+	</div> -->
+	
 	<div class="content">
 	
 		<%-- 여기에 작업 해야함 (좌우 여백 설정되어있음) --%>

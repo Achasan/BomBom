@@ -8,11 +8,11 @@
 			<div class="content">
 				<div class="login">
 					<ul>
-						<li onclick="location.href='user_login.do'">
-							로그인
+						<li>
+							<span onclick="location.href='user_login.do'">로그인</span>
 						</li>
-						<li onclick="location.href='user_join.do'">
-							회원가입
+						<li>
+							<span onclick="location.href='user_join.do'">회원가입</span>
 						</li>	
 					</ul>
 				</div>
@@ -27,15 +27,16 @@
 			</div>
 		</div>
 		
-		<div class="nav">
+	</div>
+	
+	<div class="nav">
+	
+		<ul>
+			<li><span class="menu1" onclick="location.href='user_talk.do'">영화수다</span></li>
+			<li><span class="menu2" onclick="location.href='user_info.do'">영화정보</span></li>
+			<li><span class="menu3" onclick="location.href='user_food.do'">극장맛집</span></li>
+			<li><span class="menu4" onclick="location.href='user_premiere.do'">시사회</span></li>
+			<!-- <li><span class="menu5" onclick="location.href='user_event.do'">이벤트</span></li> -->
+		</ul>
 			
-				<ul>
-					<li><span class="menu1" onclick="location.href='user_talk.do'">영화수다</span></li>
-					<li><span class="menu2" onclick="location.href='user_info.do'">영화정보</span></li>
-					<li><span class="menu3" onclick="location.href='user_food.do'">극장맛집</span></li>
-					<li><span class="menu4" onclick="location.href='user_premiere.do'">시사회</span></li>
-					<li><span class="menu5" onclick="location.href='user_event.do'">이벤트</span></li>
-				</ul>
-			
-		</div>
 	</div>
