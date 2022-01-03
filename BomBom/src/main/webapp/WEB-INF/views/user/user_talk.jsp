@@ -30,12 +30,12 @@
 	
 	
 	<div class="jumbotron">
-            <div class="textBlock1">
-                <span class="main_title">영화수다</span>
-                <br>
-                <span class="sub_title">봄봄인들의 수다공간</span> 
-            </div>
-        </div>
+	    <div class="textBlock1">
+	        <span class="main_title">영화수다</span>
+	        <br>
+	        <span class="sub_title">봄봄인들의 수다공간</span> 
+	    </div>
+    </div>
 	
 	
 	<div class="content">

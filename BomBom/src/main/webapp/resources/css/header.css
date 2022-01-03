@@ -34,7 +34,7 @@ body {
 	
 	padding: 15px 0;
 	text-align: center;
-	height: 115px;
+	height: 100px;
 }		
 
 .logo img {
@@ -52,12 +52,13 @@ body {
 	background-color: white;
 	vertical-align: middle;
 	z-index: 3;
+	
+	opacity: 0.9;
 }
 
 .nav ul{
 	padding: 0;
 	margin: 0;
-	padding-left: 10px;
 }
 
 .nav li {
