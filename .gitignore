@@ -1,14 +1,6 @@
-# Created by https://www.toptal.com/developers/gitignore/api/eclipse,java
-# Edit at https://www.toptal.com/developers/gitignore?templates=eclipse,java
 
-mybatis-config.xml
-log4j.xml
-
-lecture
-target
-pom.properties
-.classpath
-MANIFEST.MF
+# Created by https://www.toptal.com/developers/gitignore/api/windows,eclipse
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,eclipse
 
 ### Eclipse ###
 .metadata
@@ -70,41 +62,36 @@ local.properties
 
 # Uncomment this line if you wish to ignore the project description file.
 # Typically, this file would be tracked if it contains build/dependency configurations:
-.project
+#.project
 
 ### Eclipse Patch ###
 # Spring Boot Tooling
 .sts4-cache/
 
-# Eclipse Core
-.project
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
 
-# IDT-specific (Eclipse Java Development Tools)
-.classpath
+# Dump file
+*.stackdump
 
-### Java ###
-# Compiled class file
-*.class
+# Folder config file
+[Dd]esktop.ini
 
-# Log file
-*.log
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# BlueJ files
-*.ctxt
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Windows shortcuts
+*.lnk
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-# End of https://www.toptal.com/developers/gitignore/api/eclipse,java
+# End of https://www.toptal.com/developers/gitignore/api/windows,eclipse
