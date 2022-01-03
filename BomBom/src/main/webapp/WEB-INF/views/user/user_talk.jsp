@@ -29,20 +29,14 @@
 	<jsp:include page="../include/header.jsp" flush="false"/>
 	
 	
-	<div class="jumbotron">
+	<div class="containter">
+        <div class="jumbotron">
             <div class="textBlock1">
                 <span class="main_title">영화수다</span>
                 <br>
                 <span class="sub_title">봄봄인들의 수다공간</span> 
             </div>
         </div>
-	
-	
-	<div class="content">
-	
-		<%-- 여기에 작업 해야함 (좌우 여백 설정되어있음) --%>
-		
-        
 
         <div class="boardArea">
             <div class="board">
@@ -134,7 +128,7 @@
                         <td>
                             <a href="#">heasasdasdqweo</a>
                         </td>
-                        <td>2021.12.30</td>	
+                        <td>2021.12.30</td>
                         <td>5</td>
                     </tr>
 
@@ -153,9 +147,34 @@
 
                 </table>
             </div>
+
+            <div class="board_footer">
+                <div class="board_bottom">
+                    <button type="button" class="search_btn">🔎</button>
+                    <a href="#" class="post_btn">글쓰기</a>
+                </div>
+
+                <div class="paging">
+                    <a href="#" class="paging_first"><<</a>
+                    <a href="#" class="paging_prev"><</a>
+                    <a href="#" class="paging_number_active">1</a>
+                    <a href="#" class="paging_number">2</a>
+                    <a href="#" class="paging_number">3</a>
+                    <a href="#" class="paging_number">4</a>
+                    <a href="#" class="paging_number">5</a>
+                    <a href="#" class="paging_number">6</a>
+                    <a href="#" class="paging_number">7</a>
+                    <a href="#" class="paging_number">8</a>
+                    <a href="#" class="paging_number">9</a>
+                    <a href="#" class="paging_number">10</a>
+                    <a href="#" class="paging_next">></a>
+                    <a href="#" class="paging_last">>></a>
+                </div>
+            </div>
         </div>
 
-	</div>
+
+    </div>
 	
 	<jsp:include page="../include/footer.jsp" flush="false"/>
 </body>
