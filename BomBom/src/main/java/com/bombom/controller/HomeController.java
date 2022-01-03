@@ -36,4 +36,9 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping("banner")
+	public String banner() {
+		
+		return "include/banner";
+	}
 }
