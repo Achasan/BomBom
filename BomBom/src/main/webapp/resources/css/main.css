@@ -9,51 +9,69 @@
 	
 }
 
-.popular h1{
+h1{
 	
-	margin-left: 65px;
+	margin-left: 50px;
 	margin-top: 10px;
 	position: relative;
 	bottom: -25px;
 	
 }
 
-.popular .cont{
+.cont{
 	width : 1200px;
 	height: 380px;
-	background-color: white;
+	
 	margin-left: 50px;
 	margin-right: 500px;
 	margin-top: 40px;
 	border-radius: 30px;
 }
 
-.popular span{
+.cont span{
 	
-	font-size: 27px;
-	margin-left: 10px;
-	position : relative;
-	top: 10px;
+	font-size: 18px;
+	
+	position : static;
+	
+	bottom : 10px;
+
 }
 
 
 .rank_1{
+	
+	
 	background-color: red;
 	border-radius: 10px;
 }
 
 .rank_2{
+	
+	
 	background-color: orange;
 	border-radius: 10px;
 }
 
 .rank_3{
+	
+	
 	background-color: yellow;
 	border-radius: 10px;
 }
 
 .rank{
+	
+	
 	background-color: #D5D6D8;
 	border-radius: 10px;
+}
+
+.rank_10{
+
+	
+	background-color: #D5D6D8;
+	border-radius: 10px;
+	
 }
 
