@@ -37,21 +37,21 @@
 		
 		
 		<%-- 본문 컨텐츠 자리 --%>
-		<div class="popular" >			
-			<h1>인기 게시글</h1>
-				<div class="cont" >
-				<span class="rank_1">&nbsp;1&nbsp;</span><br>
-				<span class="rank_2">&nbsp;2&nbsp;</span><br>
-				<span class="rank_3">&nbsp;3&nbsp;</span><br>
-				<span class="rank">&nbsp;4&nbsp;</span><br>
-				<span class="rank">&nbsp;5&nbsp;</span><br>
-				<span class="rank">&nbsp;6&nbsp;</span><br>
-				<span class="rank">&nbsp;7&nbsp;</span><br>
-				<span class="rank">&nbsp;8&nbsp;</span><br>
-				<span class="rank">&nbsp;9&nbsp;</span><br>
-				<span class="rank">10&nbsp;</span>
+					
+		<h1>인기 게시글</h1>
+			<div class="cont" >
+				<span class="rank_1">&nbsp;&nbsp;1&nbsp;&nbsp;</span><br>
+				<span class="rank_2">&nbsp;&nbsp;2&nbsp;&nbsp;</span><br>
+				<span class="rank_3">&nbsp;&nbsp;3&nbsp;&nbsp;</span><br>
+				<span class="rank">&nbsp;&nbsp;4&nbsp;&nbsp;</span><br>
+				<span class="rank">&nbsp;&nbsp;5&nbsp;&nbsp;</span><br>
+				<span class="rank">&nbsp;&nbsp;6&nbsp;&nbsp;</span><br>
+				<span class="rank">&nbsp;&nbsp;7&nbsp;&nbsp;</span><br>
+				<span class="rank">&nbsp;&nbsp;8&nbsp;&nbsp;</span><br>
+				<span class="rank">&nbsp;&nbsp;9&nbsp;&nbsp;</span><br>
+				<span class="rank_10">&nbsp;10&nbsp;</span>
 			</div>
-		</div>
+		
 		
 		<div class="article">
 			<div class="content">
