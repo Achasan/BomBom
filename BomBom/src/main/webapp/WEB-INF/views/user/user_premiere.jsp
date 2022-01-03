@@ -36,7 +36,7 @@
 		$("#modal, .close").on('click',function(){
 			  $("#modal").fadeOut(300);
 			  $(".modal-con").fadeOut(300);
-			});
+		});
 	</script>
 </head>
 <body>
@@ -90,13 +90,11 @@
 				</div> 
 				
 				<div class="content_cards">
-					<span class="new_atc">
-					"N"
-					::after</span>
+					<span class="new_atc">N</span>
 					<a class="premiere_poster">
 						<img src="resources/image/premiere_poster2.jpg" alt="'청춘적니' 한줄평/리뷰 이벤트">
 					</a>
-					<div class="content_body">
+					<div class="content_bodys">
 						<a class="content_title" href="" title="'스피드 : 레이스 1' 언론 배급 시사회에 초대합니다.">'스피드 : 레이스 1' ...</a>
 						<p class="content_summary">● 본 시사회는 백신 접종 완료자만 입장 가능합니다. (글 하단 안내문 꼭 참조하...</p>
 						<p class="content_date">3일전</p>
@@ -143,9 +141,22 @@
 					<p>어쩌고저쩌고</p>
 				</div>
 				
-				<div class="paging" align="center">
-					<< | 1 | 2 | 3 | 4 | 5 | >>
-				</div>
+				<div class="paging">
+                    <a href="#" class="paging_first"><<</a>
+                    <a href="#" class="paging_prev"><</a>
+                    <a href="#" class="paging_number_active">1</a>
+                    <a href="#" class="paging_number">2</a>
+                    <a href="#" class="paging_number">3</a>
+                    <a href="#" class="paging_number">4</a>
+                    <a href="#" class="paging_number">5</a>
+                    <a href="#" class="paging_number">6</a>
+                    <a href="#" class="paging_number">7</a>
+                    <a href="#" class="paging_number">8</a>
+                    <a href="#" class="paging_number">9</a>
+                    <a href="#" class="paging_number">10</a>
+                    <a href="#" class="paging_next">></a>
+                    <a href="#" class="paging_last">>></a>
+                </div>
 			</div>
 		</div>
 	</div>
