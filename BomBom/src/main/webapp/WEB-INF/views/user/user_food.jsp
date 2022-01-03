@@ -8,6 +8,7 @@
 
 	<%-- header, home, footer.css --%>
 	<link rel="stylesheet" type="text/css" href="resources/css/header.css?after">
+	<link rel="stylesheet" type="text/css" href="resources/css/user_food.css?after">
 	<link rel="stylesheet" type="text/css" href="resources/css/footer.css?after">
 	
 	<%-- jQuery --%>
@@ -22,58 +23,7 @@
 		);
 		
 	</script>
-	
-	<style type="text/css">
-	
-		.banner{
-			position: relative;
-			background: rgb(251,67,87);
-			background: linear-gradient(90deg, rgba(251,67,87,1) 6%, rgba(91,162,152,1) 70%, rgba(109,187,203,1) 92%);
-			height: 250px;
-		}
-		
-		.banner strong {
-			position: absolute;
-			color: white;
-			font-size: 32px;
-			font-weight: 600;
-			margin-top: 80px;
-			margin-left: 300px;
-		}
-		
-		.article {
-			border: 1px lightgray solid;
-		}
-		
-		.jumbotron {
-  position: relative;
-  width: 100%;
-  height: 250px;
-  background-image: url("../image/suda_img.jpg");
-  background-size: cover;
-  object-fit: cover;
-}
 
-.jumbotron .textBlock1 {
-  position: absolute;
-  display: inline-block;
-  color: white;
-  top: 80px;
-  left: 25%;
-}
-
-.textBlock1 .main_title {
-  font-size: 38px;
-  font-weight: 400;
-}
-
-.textBlock1 .sub_title {
-  padding-top: 10px;
-  font-size: 20px;
-  font-weight: 300;
-}
-		
-	</style>
 
 </head>
 <body>
@@ -81,17 +31,17 @@
 	
 	<div class="jumbotron">
 	    <div class="textBlock1">
-	        <span class="main_title">영화수다</span>
+	        <span class="main_title">극장맛집</span>
 	        <br>
-	        <span class="sub_title">봄봄인들의 수다공간</span> 
+	        <span class="sub_title">봄봄인들을 위한 맛집 추천</span> 
 	    </div>
     </div>
 	
 	<div class="content">
 		
 		<div class="article">
-			<h1>극장맛집 본문내용 들어갈 자리</h1>
-			<p>어쩌고저쩌고</p>
+			
+			<img src="resources/image/cgv_용산.jpg">
 		</div>
 		
 		
