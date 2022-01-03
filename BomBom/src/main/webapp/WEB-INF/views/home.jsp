@@ -20,16 +20,9 @@
 	
 	<div id="slideShow"> 
 			
-			<img src="resources/image/Ts_1920420.jpg"> 
+			<iframe src="./banner" frameborder="0" width="100%"  height=420 scrolling=auto name=banner ></iframe>
 			
-			<p class="controller"> 
-			<!-- &lang: 왼쪽 방향 화살표 &rang: 오른쪽 방향 화살표 --> 
-			<span class="prev">&lang;</span> 
-			<span class="next">&rang;</span> 
-			</p>
-
-		</div>
-	
+	</div>
 	<div class="content">
 	
 		<%-- 메인화면 배너 자리 : iframe 사용 예정 --%>
