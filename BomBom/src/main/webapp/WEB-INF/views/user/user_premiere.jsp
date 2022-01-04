@@ -26,17 +26,25 @@
 			}
 		);
 		
-		// 모달창 팝업
-		function openModal(modalname){
+		// 모달창 열기
+		function openModal(){
 		  document.get
-		  $("#modal").fadeIn(300);
-		  $("."+modalname).fadeIn(300);
+		  $("#modal").show();
+		  $(".modal-con").show();
+		  //body 스크롤 방지
+		  document.body.classList.add("stop-scroll");
 		}
 		
-		$("#modal, .close").on('click',function(){
-			  $("#modal").fadeOut(300);
-			  $(".modal-con").fadeOut(300);
-		});
+		
+		// 모달창 닫기(close 버튼 누르기)		
+		function closeModal(){
+		  document.get
+		  $("#modal").hide();
+		  $(".modal-con").hide();
+		  // 스크롤 방지 해제
+		  document.body.classList.remove("stop-scroll");
+		}
+		
 	</script>
 </head>
 <body>
@@ -45,9 +53,9 @@
 	
 	<div class="jumbotron">
 	    <div class="textBlock1">
-	        <span class="main_title">영화수다</span>
+	        <span class="main_title">시사회</span>
 	        <br>
-	        <span class="sub_title">봄봄인들의 수다공간</span> 
+	        <span class="sub_title">각종 시사회 정보를 확인하세요</span> 
 	    </div>
     </div>
 	
@@ -75,19 +83,18 @@
 		<%-- 더미컨텐츠 (필요시 .article, .content 사용) --%>
 		<div class="premiere_list_wrap">
 			<div class="premiere_content">
+			<!-- 게시물 영역을 누르면 모달창으로 넘어갈 수 있도록 -->
+			<a href="javascript:openModal();">
 				<div class="content_cards">
-					<span class="new_atc">
-					"N"
-					::after</span>
-					<a class="premiere_poster">
-						<img src="resources/image/premiere_poster.jpg" alt="'청춘적니' 한줄평/리뷰 이벤트">
-					</a>
+					<span class="new_atc">N</span>
+					<img src="resources/image/premiere_poster.jpg" alt="'청춘적니' 한줄평/리뷰 이벤트">
 					<div class="content_body">
-						<a class="content_title" href="javascript:openModal('modal1');" title="'청춘적니' 한줄평/리뷰 이벤트">'청춘적니' 한줄평/리...</a>
+						<p class="content_title">'청춘적니' 한줄평/리뷰 이벤트</p>
 						<p class="content_summary">영화 '청춘적니' 한줄평/리뷰 이벤트입니다. '청춘적니' 관람 후 아직 못 본 분...</p>
 						<p class="content_date">2일전</p>
 					</div>
-				</div> 
+				</div>
+				</a> 
 				
 				<div class="content_cards">
 					<span class="new_atc">N</span>
@@ -141,7 +148,7 @@
 					<p>어쩌고저쩌고</p>
 				</div>
 				
-				<div class="paging">
+				<div class="paging" align="center">
                     <a href="#" class="paging_first"><<</a>
                     <a href="#" class="paging_prev"><</a>
                     <a href="#" class="paging_number_active">1</a>
@@ -163,35 +170,54 @@
 	
 	<!-- 모달창 -->
 	<div id="modal"></div>
-	  	<div class="modal-con modal1">
-		    <a href="javascript:;" class="close">X</a>
+	  	<div class="modal-con">
+		    <a href="javascript:closeModal();" class="close">X</a>
 		    <p class="title">'청춘적니' 한줄평/리뷰 이벤트</p>
-		    <div class="con">
-		    	
-		    	<img src="resources/image/premiere_body1.jpg" alt="'청춘적니' 한줄평/리뷰 이벤트">
-		    
-				 영화 &lt;청춘적니&gt; 한줄평/리뷰 이벤트입니다.
-				&lt;청춘적니&gt; 관람 후 아직 못 본 분들에게 추천하는 한줄평을 아래 댓글란에 달아주세요.
-				참여하신 분 중 15분을 뽑아서 &lt;청춘적니&gt; 굿즈 풀세트(5명), 스타벅스 돌체라테 기프티콘(10명)을 드립니다.				 
-				
-				영화수다 게시판에 감상평(리뷰)를 작성한 분들은 그 글 주소도 같이 댓글에 남겨주시면 더욱 좋습니다.				
-				(작성하신 후기는 마케팅 용도로 활용될 수 있습니다.)
-				
-				이벤트 참여 방법				
-				아래 댓글란에 &lt;청춘적니&gt; 한줄평 남기기.				
-				(영화수다에 리뷰를 쓴 사람은 리뷰 글 주소를 같이 붙이면 OK)
-				
-				경품
-				- &lt;청춘적니&gt; 굿즈 풀세트 : 5명
-				   ㄴ 구성 : &lt;청춘적니&gt; A3 포스터 3종 + 중국 오리지널 티켓 + 폴라로이드 엽서 세트(아래 사진 참조)
-				- 스타벅스 돌체라떼 기프티콘 : 10명
-				
-				당첨자 발표: 1월 15일(토)
-				
-				많은 참여 부탁드립니다.
-		    
+		    <div class="writer_date">
+		    	<span class="writer">관리자</spans>
+		    	<span class="date">2021.12.30. 20:05</span>
 		    </div>
-	  	</div>
+		    <div class="con">
+		    	<img src="resources/image/premiere_body1.jpg" alt="'청춘적니' 한줄평/리뷰 이벤트"
+		    		 width="300px" height="auto">
+		    	<pre>
+<b>영화 &lt;청춘적니&gt; 한줄평/리뷰 이벤트입니다.</b>
+&lt;청춘적니&gt; 관람 후 아직 못 본 분들에게 추천하는 한줄평을 아래 댓글란에 달아주세요.
+참여하신 분 중 15분을 뽑아서 &lt;청춘적니&gt; 굿즈 풀세트(5명), 스타벅스 돌체라테 기프티콘(10명)을 드립니다.
+
+영화수다 게시판에 감상평(리뷰)를 작성한 분들은 그 글 주소도 같이 댓글에 남겨주시면 더욱 좋습니다.
+<i>(작성하신 후기는 마케팅 용도로 활용될 수 있습니다.)</i>
+
+<b>이벤트 참여 방법</b>
+아래 댓글란에 &lt;청춘적니&gt; 한줄평 남기기.
+(영화수다에 리뷰를 쓴 사람은 리뷰 글 주소를 같이 붙이면 OK)
+
+<b>경품</b>
+ - &lt;청춘적니&gt; 굿즈 풀세트 : 5명 
+  ㄴ 구성 : &lt;청춘적니&gt; A3 포스터 3종 + 중국 오리지널 티켓 + 폴라로이드 엽서 세트(아래 사진 참조)
+ - 스타벅스 돌체라떼 기프티콘 : 10명
+
+<b>당첨자 발표:</b> 1월 15일(토)
+
+많은 참여 부탁드립니다.</pre>
+
+				<img src="resources/image/premiere_body2.jpg" alt="'청춘적니' 한줄평/리뷰 이벤트 상세 사진"
+		    		 width="800px" height="auto">
+		    	
+		    	<br>			
+				<button class="bt_like" type="button">좋아요</button>
+				<!-- 좋아요 누른 사람들 목록 -->
+				<div class="like_list" align="center">
+					<h3>추천인</h3>
+					<hr color="#e0e0e0">								
+				</div>
+				
+				<!-- 댓글창 -->
+				<div class="comment">
+					<P>댓글</P>
+				</div>				
+			</div>	<!-- 모달 본문 -->
+		</div> 
 	
 	<jsp:include page="../include/footer.jsp" flush="false"/>
 </body>
