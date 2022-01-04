@@ -23,6 +23,18 @@
 			}
 		);
 		
+		function zoomIn(event) {
+		    event.target.style.width = "150%";
+		    event.target.style.height = "300px";
+		    event.target.style.transition = "all 0.5s";
+		}
+
+		function zoomOut(event) {
+		    event.target.style.width = "120%";
+		    event.target.style.height = "300px";
+		    event.target.style.transition = "all 0.5s";
+		}
+		
 	</script>
 
 </head>
@@ -62,10 +74,19 @@
 		<div class="article">
 			<div class="info_content">
 			
-				<div class="content_cards">
-					<h1>영화정보 본문 내용 들어갈 자리</h1>
-					<p>어쩌고저쩌고</p>
-				</div>
+				<a class="content_cards" href="info_detail.do">
+					<div class="cards_image">
+						<img src="resources/image/kings_man.jpg" >
+					</div>
+					<div class="cards_cont">
+						<div class="cont_title">
+							킹스맨 : 퍼스트 에이전트
+						</div>
+						<div class="cont_text">
+							안녕하세요 테스트입니다 안녕하세요 테스트입니다 안녕하세요 테스트입니다 안녕하세요 테스트입니다
+						</div>
+					</div>
+				</a>
 				
 				<div class="content_cards">
 					<h1>영화정보 본문 내용 들어갈 자리</h1>
@@ -112,9 +133,24 @@
 					<p>어쩌고저쩌고</p>
 				</div>
 				
-				<div class="paging" align="center">
-					<< | 1 | 2 | 3 | 4 | 5 | >>
-				</div>
+				
+                <div class="paging">
+                    <a href="#" class="paging_first"><<</a>
+                    <a href="#" class="paging_prev"><</a>
+                    <a href="#" class="paging_number_active">1</a>
+                    <a href="#" class="paging_number">2</a>
+                    <a href="#" class="paging_number">3</a>
+                    <a href="#" class="paging_number">4</a>
+                    <a href="#" class="paging_number">5</a>
+                    <a href="#" class="paging_number">6</a>
+                    <a href="#" class="paging_number">7</a>
+                    <a href="#" class="paging_number">8</a>
+                    <a href="#" class="paging_number">9</a>
+                    <a href="#" class="paging_number">10</a>
+                    <a href="#" class="paging_next">></a>
+                    <a href="#" class="paging_last">>></a>
+                </div>
+      
 			</div>
 		</div>
 
