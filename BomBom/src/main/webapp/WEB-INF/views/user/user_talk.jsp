@@ -152,7 +152,7 @@
             <div class="board_footer">
                 <div class="board_bottom">
                     <button type="button" class="search_btn">🔎</button>
-                    <a href="#" class="post_btn">글쓰기</a>
+                    <a href="${pageContext.request.contextPath}/user_write.do" class="post_btn">글쓰기</a>
                 </div>
 
                 <div class="paging">
