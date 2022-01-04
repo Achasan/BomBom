@@ -2,7 +2,7 @@
 
 .article {
 	border-bottom: 1px lightgray solid;
-	
+	height: 200px;
 	padding-bottom: 25px;
 	padding-left: 25px;
 	vertical-align: middle;
@@ -12,29 +12,15 @@
 	margin: 0;
 }
 
-.article_image {
-	
-	width: 400px;
-	height: 200px;
-	margin-right: 50px;
-	border-radius: 15px;
-	overflow: hidden;
-	display: inline-block;
-}
-
 .article img {
 	width: 400px;
 	height: 100%;
 	border-radius: 15px;
+	margin-right: 50px;
 	cursor: pointer;
 }
 
-.article img:hover {
-	transform: scale(1.1);
-	transition: 1s;
-}
-
-.article_content {
+.article div {
 	display: inline-block;
 	position: absolute;
 	width: 500px;
@@ -72,4 +58,20 @@
 	padding-top: 10px;
 	font-size: 20px;
 	font-weight: 300;
+}
+
+.content table {
+	
+	display: inline-block;
+	border-top: 1px gray solid;
+	border-bottom: 1px gray solid;
+}
+
+.content table td {
+	border-top: 1px lightgray solid;
+	margin: 0;
+}
+
+.content table h3{
+	margin: 0;
 }
