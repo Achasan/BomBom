@@ -9,13 +9,18 @@
 	
 }
 
-h1{
+h1,p{
 	
 	margin-left: 50px;
 	margin-top: 10px;
 	position: relative;
 	bottom: -25px;
 	
+}
+
+span{
+	font-size: 25px;
+	color : #8C8C8C;
 }
 
 .cont{
@@ -32,12 +37,23 @@ h1{
 	
 	font-size: 18px;
 	
-	position : static;
 	
-	bottom : 10px;
 
 }
 
+.td td{
+	position: relative;
+	
+	top : 9px;
+	left : 7px;
+	font-size: 18px;
+}
+
+.cont{
+	width : 900px;
+	height: 320px;
+	border : 1px solid black;
+}
 
 .rank_1{
 	
@@ -73,5 +89,15 @@ h1{
 	background-color: #D5D6D8;
 	border-radius: 10px;
 	
+}
+
+.all{
+	
+	width : 100px;
+	height: 25px;
+	border : 1px solid #8C8C8C;
+	margin-top : -20px;
+	margin-left: 870px;
+	border-radius: 30px;
 }
 
