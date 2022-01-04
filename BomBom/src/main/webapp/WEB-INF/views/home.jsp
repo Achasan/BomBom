@@ -33,29 +33,109 @@
 					
 		<h1>인기 게시글</h1>
 			<div class="cont" >
-				<span class="rank_1">&nbsp;&nbsp;1&nbsp;&nbsp;</span><br>
-				<span class="rank_2">&nbsp;&nbsp;2&nbsp;&nbsp;</span><br>
-				<span class="rank_3">&nbsp;&nbsp;3&nbsp;&nbsp;</span><br>
-				<span class="rank">&nbsp;&nbsp;4&nbsp;&nbsp;</span><br>
-				<span class="rank">&nbsp;&nbsp;5&nbsp;&nbsp;</span><br>
-				<span class="rank">&nbsp;&nbsp;6&nbsp;&nbsp;</span><br>
-				<span class="rank">&nbsp;&nbsp;7&nbsp;&nbsp;</span><br>
-				<span class="rank">&nbsp;&nbsp;8&nbsp;&nbsp;</span><br>
-				<span class="rank">&nbsp;&nbsp;9&nbsp;&nbsp;</span><br>
-				<span class="rank_10">&nbsp;10&nbsp;</span>
+			<table class="td">
+				
+					<tr>
+						<td>
+						<span class="rank_1">&nbsp;&nbsp;1&nbsp;&nbsp;</span>
+						어쩌구 저쩌구
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						<span class="rank_2">&nbsp;&nbsp;2&nbsp;&nbsp;</span>
+						어쩌구 저쩌구
+						</td>
+					</tr>
+					
+					<tr>						
+						<td>
+						<span class="rank_3">&nbsp;&nbsp;3&nbsp;&nbsp;</span>
+						어쩌구 저쩌구
+						</td>
+					</tr>
+					
+					<tr>						
+						<td>
+						<span class="rank">&nbsp;&nbsp;4&nbsp;&nbsp;</span>
+						어쩌구 저쩌구
+						</td>
+					</tr>
+					
+					<tr>						
+						<td>
+						<span class="rank">&nbsp;&nbsp;5&nbsp;&nbsp;</span>
+						어쩌구 저쩌구
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						<span class="rank">&nbsp;&nbsp;6&nbsp;&nbsp;</span>
+						어쩌구 저쩌구
+						</td>
+					</tr>
+					
+					<tr>						
+						<td>
+						<span class="rank">&nbsp;&nbsp;7&nbsp;&nbsp;</span>
+						어쩌구 저쩌구
+						</td>
+					</tr>
+					
+					<tr>						
+						<td>
+						<span class="rank">&nbsp;&nbsp;8&nbsp;&nbsp;</span>
+						어쩌구 저쩌구
+						</td>
+					</tr>
+					
+					<tr>						
+						<td>
+						<span class="rank">&nbsp;&nbsp;9&nbsp;&nbsp;</span>
+						어쩌구 저쩌구
+						</td>
+					</tr>
+					
+					<tr>						
+						<td>
+						<span class="rank_10">&nbsp;10&nbsp;</span>
+						어쩌구 저쩌구
+						</td>
+					</tr>
+			</table>
 			</div>
 		
 		
 		<div class="article">
 			<div class="content">
-				<h1>본문내용들어갈자리</h1>
+				<h1>영화 정보 <span>│ 상영 예정작</span></h1>
+					<div class="all" align="center">전체보기&nbsp;&nbsp;></div>
+					<div>
+						<div class="first">
+							<img alt="" src="">
+						</div>
+						
+					
+					
+					</div>
+				
+			</div>
+		</div>
+		
+		<div class="article">
+			<div class="content">
+				<h1>시사회 정보</h1>
+					<div class="all" align="center">전체보기&nbsp;&nbsp;></div>
 				<p>어쩌고저쩌고</p>
 			</div>
 		</div>
 		
 		<div class="article">
 			<div class="content">
-				<h1>본문내용들어갈자리</h1>
+				<h1>극장 맛집</h1>
+					<div class="all" align="center">전체보기&nbsp;&nbsp;></div>
 				<p>어쩌고저쩌고</p>
 			</div>
 		</div>
