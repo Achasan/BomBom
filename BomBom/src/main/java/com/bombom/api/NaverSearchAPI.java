@@ -15,36 +15,64 @@ import java.util.Map;
 
 //네이버 검색 API 공식문서 : https://developers.naver.com/docs/serviceapi/search/blog/blog.md#%EB%B8%94%EB%A1%9C%EA%B7%B8 
 
-public class ApiExamSearchBlog {
+public class NaverSearchAPI {
 
 
-    public static void main(String[] args) {
-        String clientId = "6JrHyX7NsCshdEmcCZGR"; //애플리케이션 클라이언트 아이디값"
+	 public static String searchBlog(String keyword) {
+    
+		String clientId = "6JrHyX7NsCshdEmcCZGR"; //애플리케이션 클라이언트 아이디값"
         String clientSecret = "OQiQk1ECkt"; //애플리케이션 클라이언트 시크릿값"
 
-
         String text = null;
+        
         try {
-            text = URLEncoder.encode("밤가시버거", "UTF-8");
+            text = URLEncoder.encode(keyword, "UTF-8");
         } catch (UnsupportedEncodingException e) {
             throw new RuntimeException("검색어 인코딩 실패",e);
         }
 
 
-        //String apiURL = "https://openapi.naver.com/v1/search/blog?query=" + text + "&display=20&sort=date";    // json 결과
+        String apiURL = "https://openapi.naver.com/v1/search/blog?query=" + text + "&display=20&sort=date";    // json 결과
         //String apiURL = "https://openapi.naver.com/v1/search/blog.xml?query="+ text; // xml 결과
         
         //String apiURL = "https://openapi.naver.com/v1/search/local.xml?query=" + text;	//플레이스 검색 xml결과
-        String apiURL = "https://openapi.naver.com/v1/search/local.json?query=" + text; //플레이스 검색 json 결과
+        //String apiURL = "https://openapi.naver.com/v1/search/local.json?query=" + text; //플레이스 검색 json 결과
 
-        Map<String, String> requestHeaders = new HashMap<>();
+        Map<String, String> requestHeaders = new HashMap<String, String>();
         requestHeaders.put("X-Naver-Client-Id", clientId);
         requestHeaders.put("X-Naver-Client-Secret", clientSecret);
         String responseBody = get(apiURL,requestHeaders);
-
+        
         System.out.println(responseBody);
+        
+        return responseBody;
     }
+	 
+	 public static String searchImage(String keyword) {
+		    
+			String clientId = "6JrHyX7NsCshdEmcCZGR"; //애플리케이션 클라이언트 아이디값"
+	        String clientSecret = "OQiQk1ECkt"; //애플리케이션 클라이언트 시크릿값"
 
+	        String text = null;
+	        
+	        try {
+	            text = URLEncoder.encode(keyword, "UTF-8");
+	        } catch (UnsupportedEncodingException e) {
+	            throw new RuntimeException("검색어 인코딩 실패",e);
+	        }
+
+	        String apiURL = "https://openapi.naver.com/v1/search/image?query=" + text + "&display=4&sort=date";    // json 결과
+
+	        Map<String, String> requestHeaders = new HashMap<String, String>();
+	        requestHeaders.put("X-Naver-Client-Id", clientId);
+	        requestHeaders.put("X-Naver-Client-Secret", clientSecret);
+	        String responseBody = get(apiURL,requestHeaders);
+	        
+	        System.out.println(responseBody);
+	        
+	        return responseBody;
+	    }
+    
 
     private static String get(String apiUrl, Map<String, String> requestHeaders){
         HttpURLConnection con = connect(apiUrl);
