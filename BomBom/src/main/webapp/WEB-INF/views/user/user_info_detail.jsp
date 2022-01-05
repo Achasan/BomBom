@@ -20,14 +20,30 @@
 		//문서 로딩 후 선택메뉴 css 변경
 		$(document).ready(function(){
 			$('.menu2').attr('id', 'on');
-			$('.info_menu1').attr('id', 'on');
-			$('.info_menu2').attr('id', 'off');
-			$('.info_menu3').attr('id', 'off');
-			$('.info_menu4').attr('id', 'off');
-			}
-		);
-		
-		
+			$('li#info_menu1').addClass('on');
+			
+			$('a#info_menu1').on('click', function(){
+				$('li#info_menu1').css('border', '2px solid #fb4357');
+				$('li#info_menu1').css('border-bottom', '0');
+				$('li#info_menu2').css('border', '1px solid #eee');
+				$('li#info_menu3').css('border', '1px solid #eee');
+			});
+			
+			$('a#info_menu2').on('click', function(){
+				$('li#info_menu2').css('border', '2px solid #fb4357');
+				$('li#info_menu2').css('border-bottom', '0');
+				$('li#info_menu2').css('z-index', '3');
+				$('li#info_menu1').css('border', '1px solid #eee');
+				$('li#info_menu3').css('border', '1px solid #eee');
+			});
+			
+			$('a#info_menu3').on('click', function(){
+				$('li#info_menu3').css('border', '2px solid #fb4357');
+				$('li#info_menu3').css('border-bottom', '0');
+				$('li#info_menu1').css('border', '1px solid #eee');
+				$('li#info_menu2').css('border', '1px solid #eee');
+			});
+		});
 		
 		
 		
@@ -37,7 +53,7 @@
 <body>
 	<jsp:include page="../include/header.jsp" flush="false"/>
 	
-	<div class="bg"> 
+	<div id="bg" class="bg"> 
 		
 		<div class="bg_img">
 		</div>
@@ -65,12 +81,12 @@
 	
 	<div class="info_content">
 	
-		<div class="info_nav">
+		<div class="info_nav" id="topBar">
 			
 			<ul>
-				<li class="info_menu1"><span class="info_menu1" onclick="location.href='user_info_detail.do'">주요정보</span></li>
-				<li class="info_menu2"><span class="info_menu2" onclick="location.href='user_info_detail_review.do'">실관람평</span></li>
-				<li class="info_menu3"><span class="info_menu3" onclick="location.href='user_info_detail_teaser.do'">예고편</span></li>
+				<li id="info_menu1"><span id="info_menu1"><a id="info_menu1" href="#bg">주요정보</a></span></li>
+				<li id="info_menu2"><span id="info_menu2"><a id="info_menu2" href="#teaser">예고편</a></span></li>
+				<li id="info_menu3"><span id="info_menu3"><a id="info_menu3" href="#review">실관람평</a></span></li>
 			</ul>
 					
 		</div>
@@ -101,6 +117,19 @@
 	
 		<div class="graph">
 			<img src="resources/image/graph.png" width="1000" height="300">
+		</div>
+		
+		<div id="teaser" class="teaser">
+			<span>예고편</span>
+			<div class="video" align="center">
+				<iframe width="960" height="540" src="https://www.youtube.com/embed/qmplEPm3RUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+		
+		<div id="review" class="review">
+		
+			<iframe src="./info_review.do" frameborder="0" width="100%" height="1700" scrolling="no" name=banner ></iframe>
+			
 		</div>
 	
 	</div>

@@ -110,15 +110,50 @@
 		
 		<div class="article">
 			<div class="content">
-				<h1>영화 정보 <span>│ 상영 예정작</span></h1>
+				<h1>영화 정보</h1>
 					<div class="all" align="center">전체보기&nbsp;&nbsp;></div>
-					<div>
+					<div class = "back">
 						<div class="first">
-							<img alt="" src="">
+							
+								<img class="first_img"  alt="" src="">
+							
+								<b>영화제목</b>
+								<p id="explain">설명설명설명</p>
+								<img id="star" src="resources/image/star.jpg">
+								<p id="grade"> 0.0 (실관람평갯수)</p>
 						</div>
 						
-					
-					
+							<div class="second">
+							
+								<img class="first_img"  alt="" src="">
+								
+								<b>영화제목</b>
+								<p id="explain">설명설명설명</p>
+								<img id="star" src="resources/image/star.jpg">
+								<p id="grade"> 0.0 (실관람평갯수)</p>
+							</div>
+							
+							<div class="third">
+							
+								<img class="first_img"  alt="" src="">
+								
+								<b>영화제목</b>
+								<p id="explain">설명설명설명</p>
+								<img id="star" src="resources/image/star.jpg">
+								<p id="grade"> 0.0 (실관람평갯수)</p>
+							</div>
+						
+							<div class="four">
+							
+								<img class="first_img"  alt="" src="">
+								
+								<b>영화제목</b>
+								<p id="explain">설명설명설명</p>
+								<img id="star" src="resources/image/star.jpg">
+								<p id="grade"> 0.0 (실관람평갯수)</p>
+							</div>
+						
+						
 					</div>
 				
 			</div>
@@ -128,7 +163,26 @@
 			<div class="content">
 				<h1>시사회 정보</h1>
 					<div class="all" align="center">전체보기&nbsp;&nbsp;></div>
-				<p>어쩌고저쩌고</p>
+				<div class="back2">
+					<div class="pri_first">
+						<img class="pri_img" alt="" src="">
+						<b id="p_title">시사회 제목</b>
+						<p id="p_date">- 2022.02.02 -</p>
+					</div>
+					
+					<div class="pri_second">
+						<img class="pri_img" alt="" src="">
+						<b id="p_title">시사회 제목</b>
+						<p id="p_date">시사회 날짜</p>
+					</div>
+					
+					<div class="pri_third">
+						<img class="pri_img" alt="" src="">
+						<b id="p_title">시사회 제목</b>
+						<p id="p_date">시사회 날짜</p>
+					</div>
+				
+				</div>
 			</div>
 		</div>
 		
