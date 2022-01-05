@@ -2,7 +2,7 @@
 
 .article {
 	border-bottom: 1px lightgray solid;
-	
+	height: 200px;
 	padding-bottom: 25px;
 	padding-left: 25px;
 	vertical-align: middle;
