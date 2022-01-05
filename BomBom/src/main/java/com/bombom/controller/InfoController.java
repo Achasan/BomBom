@@ -12,4 +12,9 @@ public class InfoController {
 		return "/user/user_info_detail";
 	}
 	
+	@RequestMapping("info_review.do") 
+	public String info_review() {
+		
+		return "/user/user_info_detail_review";
+	}
 }
