@@ -54,7 +54,7 @@
                         <td>
                             <span class="hot">HOT</span>
                         </td>
-                        <td>
+                        <td class="title_left">
                             <a href="#">table-layout auto test</a>
                         </td>
                         <td>
@@ -65,7 +65,7 @@
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>
+                        <td class="title_left">
                             <a href="user_content.do/2">글이 어디까지써지나알아보자얼아러아런ㅇㄹㄴㅇㄹㄴㅇ</a>
                         </td>
                         <td>
@@ -76,7 +76,7 @@
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td>
+                        <td class="title_left">
                             <a href="#">글이 어디까지써지나알아보자얼아러아런ㅇㄹㄴㅇㄹㄴㅇ</a>
                         </td>
                         <td>
@@ -87,7 +87,7 @@
                     </tr>
                     <tr>
                         <td>4</td>
-                        <td>
+                        <td class="title_left">
                             <a href="#">글이 어디까지써지나ㅈㄷㄱ러아런ㅇㄹㄴㅇㄹㄴㅇ</a>
                         </td>
                         <td>
@@ -99,7 +99,7 @@
 
                     <tr>
                         <td>5</td>
-                        <td>
+                        <td class="title_left">
                             <a href="#">글이 ㄴㅇ</a>
                         </td>
                         <td>
@@ -111,7 +111,7 @@
 
                     <tr>
                         <td>6</td>
-                        <td>
+                        <td class="title_left">
                             <a href="#">글이 어디까지써지나알아보자얼아러아런ㅇㄹㄴㅇㄹㄴㅇ</a>
                         </td>
                         <td>
@@ -123,7 +123,7 @@
 
                     <tr>
                         <td>7</td>
-                        <td>
+                        <td class="title_left">
                             <a href="#">글이 어디까지써지나알아보자얼아러아런ㅇㄹㄴㅇㄹㄴㅇ</a>
                         </td>
                         <td>
@@ -135,7 +135,7 @@
 
                     <tr>
                         <td>8</td>
-                        <td>
+                        <td class="title_left">
                             <a href="#">글이 어디까지써지나알아보자얼아러아런ㅇㄹㄴㅇㄹㄴㅇ</a>
                         </td>
                         <td>
